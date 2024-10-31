@@ -346,7 +346,7 @@ footer .credit a:hover {
 }
 
 /* Tablet */
-@media (max-width: 758px) {
+@media (max-width: 800px) {
     html {
         font-size: 62.5%;
     }
@@ -418,7 +418,7 @@ footer .credit a:hover {
 }
 
 /* Mobile Phone */
-@media (max-width: 450px) {
+@media (max-width: 720px) {
     html {
         font-size: 55%;
     }
