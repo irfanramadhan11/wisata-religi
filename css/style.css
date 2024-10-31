@@ -160,8 +160,8 @@ body {
 }
 
 .about .row .about-img img {
-    width: 360px;
-    height: 360px;
+    width: 320px;
+    height: 320px;
 }
 
 .about .row .content {
@@ -418,7 +418,7 @@ footer .credit a:hover {
 }
 
 /* Mobile Phone */
-@media (max-width: 320px) {
+@media (max-width: 720px) {
     html {
         font-size: 55%;
     }
