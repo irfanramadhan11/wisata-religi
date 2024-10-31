@@ -41,7 +41,7 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     color: #0c19ca;
-   font-style: italic;
+    font-style: italic;
 }
 
 .navbar .navbar-logo span {
@@ -208,7 +208,7 @@ body {
 
 /* Gallery Section */
 .gallery {
-    padding: 8rem 7% 1.4rem;
+    padding: 5rem 7% 1.2rem;
     background-image: url('../img/bgsheet.jpg');
 }
 
@@ -226,7 +226,7 @@ body {
 }
 
 .gallery .row {
-    display: block;
+    display: flex;
 }
 
 .gallery .row .gallery-img {
