@@ -226,7 +226,7 @@ body {
 }
 
 .gallery .row {
-    display: flex;
+    display: block;
 }
 
 .gallery .row .gallery-img {
