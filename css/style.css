@@ -141,7 +141,7 @@ body {
 
 /* About Section */
 .about, .service, .contact {
-    padding: 8rem 7% 1.4rem;
+    padding: 5rem 7% 1.4rem;
     background-image: url('../img/bgsheet.jpg');
 }
 
@@ -208,7 +208,7 @@ body {
 
 /* Gallery Section */
 .gallery {
-    padding: 5rem 7% 1.2rem;
+    padding: 5rem 7% 1.4rem;
     background-image: url('../img/bgsheet.jpg');
 }
 
