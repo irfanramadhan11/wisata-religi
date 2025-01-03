@@ -458,5 +458,8 @@ footer .credit a:hover {
     .navbar .search-form label {
         height: 5rem;
         width: 30rem;
+        cursor: pointer;
+        font-size: 2rem;
         margin-right: 10rem;
+        color: var(--bg);
     }
