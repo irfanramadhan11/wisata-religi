@@ -115,7 +115,7 @@ body {
 .navbar .search-form label {
     cursor: pointer;
     font-size: 2rem;
-    margin-right: 1.5rem;
+    margin-right: 0rem;
     color: var(--bg);
 }
 
@@ -454,12 +454,4 @@ footer .credit a:hover {
 @media (max-width: 720px) {
     html {
         font-size: 55%;
-    }
-    .navbar .search-form label {
-        height: 5rem;
-        width: 30rem;
-        cursor: pointer;
-        font-size: 2rem;
-        margin-right: 10rem;
-        color: var(--bg);
     }
