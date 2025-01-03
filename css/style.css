@@ -461,7 +461,7 @@ footer .credit a:hover {
     }
     .navbar .search-form label {
         cursor: pointer;
-        font-size: 2rem;
-        margin-right: 1rem;
+        font-size: 1.5rem;
+        margin-right: 2rem;
         color: var(--bg);
     }
