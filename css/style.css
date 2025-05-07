@@ -450,9 +450,57 @@ footer .credit a:hover {
     padding-top: 0;
 }
 
-/* Mobile Phone */
+/* Perbaikan Tambahan Responsif Mobile (≤ 720px) */
 @media (max-width: 720px) {
-    html {
-        font-size: 55%;
+    .hero .content h1 {
+        font-size: 2.2em;
+    }
+
+    .hero .content p {
+        font-size: 1.3rem;
+    }
+
+    .hero .content .cta {
+        padding: 0.5rem 3rem;
+        font-size: 1rem;
+    }
+
+    .gallery .row,
+    .about .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery .row .gallery-img img,
+    .about .row .about-img img {
+        width: 100%;
+        max-width: 90%;
+        height: auto;
+    }
+
+    .navbar .search-form {
+        width: 90%;
+        right: 5%;
+    }
+}
+
+/* Tambahan untuk layar ekstra kecil (≤ 480px) */
+@media (max-width: 480px) {
+    .navbar .navbar-nav {
+        width: 100%;
+    }
+
+    .hero .content {
+        padding: 2rem 5%;
+    }
+
+    .contact .row .map {
+        height: 20rem;
+    }
+
+    footer .links a,
+    footer .socials a {
+        display: block;
+        margin-bottom: 0.5rem;
     }
 }
