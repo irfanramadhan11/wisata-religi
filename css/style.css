@@ -497,10 +497,4 @@ footer .credit a:hover {
     .contact .row .map {
         height: 20rem;
     }
-
-    footer .links a,
-    footer .socials a {
-        display: block;
-        margin-bottom: 0.5rem;
-    }
 }
