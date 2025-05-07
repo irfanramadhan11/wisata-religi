@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -172,5 +173,20 @@
 
     <!-- My Javascript -->
      <script src="js/script.js"></script>
+     <script>
+        const menu = document.querySelector('#menu');
+        const navbarNav = document.querySelector('.navbar-nav');
+      
+        menu.onclick = () => {
+          navbarNav.classList.toggle('active');
+        };
+      
+        // Klik di luar navbar untuk menutup menu
+        document.addEventListener('click', function(e) {
+          if (!menu.contains(e.target) && !navbarNav.contains(e.target)) {
+            navbarNav.classList.remove('active');
+          }
+        });
+      </script>      
 </body>
 </html>
